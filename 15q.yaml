@@ -2,7 +2,7 @@ description: TDS Virtual TA Project Sample (but not the actual evaluation) Quest
 providers:
   - id: https
     config:
-      url: http://127.0.0.1:8000/api/ 
+      url: http://0.0.0.0:8000/query/
       method: POST
       headers:
         Content-Type: application/json
@@ -22,7 +22,7 @@ defaultTest:
         headers:
           Content-Type: application/json
           Authorization: >-
-            Bearer {api_key)
+            Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjIwMDA5OTBAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.is9WnHMYv2QT2Gv_ohSpNUF3yHK51cR274BpXc_ff-E
         body: |
           {
             "model": "gpt-4o-mini",

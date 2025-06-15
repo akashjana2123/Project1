@@ -3,7 +3,7 @@ description: "TDS Virtual TA Project Sample (but not the actual evaluation) Ques
 providers:
   - id: https
     config:
-      url: http://127.0.0.1:8080/query/ # Replace this with your API endpoint
+      url: http://0.0.0.0:8000/query/ # Replace this with your API endpoint
       method: POST
       headers:
         Content-Type: application/json
@@ -24,7 +24,7 @@ defaultTest:
         method: POST
         headers:
           Content-Type: application/json
-          Authorization: eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjIwMDA5OTBAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.jOHiMlHw5cW8eUDiHqFtT2oDJ0CmHRSsuAUO8xZMfXk
+          Authorization: eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjIwMDA5OTBAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.is9WnHMYv2QT2Gv_ohSpNUF3yHK51cR274BpXc_ff-E
         body: |
           {
             "model": "gpt-4o-mini",
